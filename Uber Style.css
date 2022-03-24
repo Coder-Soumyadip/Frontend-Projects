@@ -1,0 +1,607 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    /* padding: 20px; */
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 20px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: medium;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+#navbar ul li a:hover{
+    background-color: rgb(80, 80, 80);
+}
+#logo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: -65px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+#logo img{
+    height: 50px;
+    margin: 3px 6px;
+}
+.extra{
+    /* border: 2px solid red; */
+    margin-left: 450px;
+}
+.white{
+    background-color: rgb(71, 70, 70);
+    color: black;
+    border-radius: 30px;
+}
+.items{
+    display: flex;
+    /* border: 2px solid red; */
+    margin-left: 70px;
+}
+#home{
+    display: flex;
+}
+#home img{
+    margin: auto;
+    display: auto;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url("https://foragerfunds.com/wp-content/uploads/2020/04/Uber.jpg");
+    height: 710px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+.box{
+    /* border: 3px solid red; */
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 550px;
+    height: 500px;
+    background-color: rgb(230, 230, 230);
+    /* border-radius: 20px; */
+}
+.box h2{
+    /* text-align: justify; */
+    margin-left: 50px;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box input{
+    /* text-align: center; */
+    margin-top: 10px;
+    height: 50px;
+    width: 450px;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(207, 207, 207);
+    border: none;
+    /* text-align: center; */
+    padding-left: 30px;
+}
+.btn{
+    padding: 6px 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 17px;
+    width: 130px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn:hover{
+    background-color: rgb(80, 80, 80);
+}
+.btm{
+    padding: 6px 20px;
+    background-color: rgb(207, 207, 207);
+    color: black;
+    cursor: pointer;
+    padding: 17px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btm:hover{
+    background-color: rgb(80, 80, 80);
+}
+.seehow::before{
+    content: "";
+    position: absolute;
+    background: url(https://wallup.net/wp-content/uploads/2019/09/562749-winter-nature-snow-beautiful-lovely-landscape-landscapes-1.jpg);
+    /* background-repeat: no-repeat; */
+    height: 300px;
+    top: 720px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+.seehow{
+    display: block;
+    /* border: 2px solid red; */
+    margin-top: 150px;
+    margin-left: 180px;
+}
+.seehow h2{
+    font-weight: bold;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+.seehow p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 25px;
+}
+.black{
+    padding: 6px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 130px;
+    /* margin-left: 20px; */
+    /* margin-top: 0px; */
+    height: 50px;
+    font-size: 15px;
+}
+.black:hover{
+    background-color: rgb(80, 80, 80);
+}
+.uberrentals img{
+    height: 400px;
+    width: 600px;
+    margin-top: 120px;
+    margin-left: 200px;
+}
+.uberrentals h2{
+    font-size: 50px;
+    margin-left: 950px;
+    margin-top: -300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.uberrentals p{
+    font-size: 22px;
+    margin-left: 955px;
+    margin-top: 30px;
+}
+.Learn{
+    text-decoration: underline;
+    border: none;
+    font-size: 20px;
+    margin-left: 955px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.Learn:hover{
+    color: grey;
+}
+.uberintercity img{
+    height: 400px;
+    width: 600px;
+    margin-top: 250px;
+    margin-left: 850px;
+}
+.uberintercity h2{
+    font-size: 50px;
+    margin-left: 200px;
+    margin-top: -400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.uberintercity p{
+    font-size: 22px;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.Lear{
+    text-decoration: underline;
+    border: none;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.Lear:hover{
+    color: grey;
+}
+.uberdiv1 img{
+    height: 400px;
+    width: 600px;
+    margin-top: 400px;
+    margin-left: 200px; 
+}
+.twodivs1 h1{
+    margin-top: 380px;
+    margin-bottom: -350px;
+    margin-left: 200px;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.uberdiv1 h2{
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.uberdiv1 p{
+    margin-left: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.Read{
+    text-decoration: underline;
+    border: none;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.Safety{
+    text-decoration: underline;
+    border: none;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.Read:hover{
+    color: grey;
+}
+.Safety:hover{
+    color: grey;
+}
+.uberdiv2 img{
+    height: 400px;
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 850px; 
+}
+.uberdiv2 h2{
+    margin-left: 850px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.uberdiv2 p{
+    margin-left: 850px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.City{
+    text-decoration: underline;
+    border: none;
+    margin-left: 850px;
+    margin-top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.City:hover{
+    color: gray;
+}
+.threedivs{
+    display: flex;
+    margin-top: 140px;
+}
+.Aboutus h3{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Aboutus p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin-bottom: 10px; */
+}
+.about{
+    text-decoration: underline;
+    border: none;
+    margin-top: 30px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.about:hover{
+    color: grey;
+}
+.Aboutus{
+    margin-left: 180px;
+}
+.Newsroom{
+    margin-left: 40px;
+}
+.Newsroom h3{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Newsroom p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.News{
+    text-decoration: underline;
+    border: none;
+    margin-top: 30px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.News:hover{
+    color: grey;
+}
+.Globalcitizenship{
+    margin-left: 40px;
+}
+.Globalcitizenship h3{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Globalcitizenship p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Global{
+    text-decoration: underline;
+    border: none;
+    margin-top: 30px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.Global:hover{
+    color: grey;
+}
+.love{
+    margin-top: 120px;
+    /* border: 2px solid red; */
+}
+.love h1{
+    font-size: 35px;
+    margin-left: 170px;
+    margin-bottom: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.uberdriver{
+    /* border: 2px solid green; */
+    width: 560px;
+    height: 200px;
+    margin-left: 180px;
+    background-color: rgb(236, 236, 236);
+}
+.uberdriver img{
+    width: 150px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.uberdriver p{
+    margin-left: 200px;
+    margin-top: -95px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+.uberdriver p:hover{
+    color: gray;
+}
+.uberapp{
+    /* border: 2px solid green; */
+    width: 560px;
+    height: 200px;
+    margin-left: 780px;
+    margin-top: -200px;
+    background-color: rgb(236, 236, 236);
+}
+.uberapp img{
+    width: 150px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.uberapp p{
+    margin-left: 200px;
+    margin-top: -95px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+.uberapp p:hover{
+    color: gray;
+}
+.sign{
+    display: flex;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 50px;
+    /* text-decoration: underline; */
+}
+.drive{
+    margin-left: 180px;
+    margin-top: 120px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.ride{
+    margin-left: 60px;
+    margin-top: 120px;
+    text-decoration: underline;
+}
+.drive:hover{
+    color: gray;
+    cursor: pointer;
+}
+.ride:hover{
+    color: gray;
+    cursor: pointer;
+}
+.uber{
+    background-color: black;
+    height: 900px;
+    color: white;
+    display: flex;
+}
+.uber h3{
+    margin-top: 100px;
+    margin-left: 100px;
+    /* margin-bottom: 100px; */
+    /* border: 2px solid red; */
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.uber h4{
+    margin-top: 170px;
+    margin-left: -58px;
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.company{
+    margin-top: 250px;
+    margin-left: -120px;
+    /* border: 2px solid red; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.products{
+    margin-top: 250px;
+    margin-left: 220px;
+    /* border: 2px solid red; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.citizenship{
+    margin-top: 250px;
+    margin-left: 220px;
+    /* border: 2px solid red; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.travel{
+    margin-top: 250px;
+    margin-left: 220px;
+    /* border: 2px solid red; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.company p{
+    margin-bottom: 15px;
+}
+.company h2{
+    margin-bottom: 15px;
+}
+.products p{
+    margin-bottom: 15px;
+}
+.products h2{
+    margin-bottom: 15px;
+}
+.citizenship p{
+    margin-bottom: 15px;
+}
+.citizenship h2{
+    margin-bottom: 15px;
+}
+.travel p{
+    margin-bottom: 15px;
+}
+.travel h2{
+    margin-bottom: 15px;
+}
+.uber h3:hover{
+    cursor: pointer;
+}
+.uber h4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.company p:hover{
+    cursor: pointer;
+   color: grey;
+}
+.products p:hover{
+    cursor: pointer;
+   color: grey;
+}
+.citizenship p:hover{
+    cursor: pointer;
+   color: grey;
+}
+.travel p:hover{
+    cursor: pointer;
+   color: grey;
+}
+#image img{
+    display: flex;
+    width: 165px;
+    margin-top: -240px;
+    margin-left: 1020px;
+}
+#img2 img{
+    display: flex;
+    width: 150px;
+    margin-top: -50px;
+    margin-left: 1200px;
+}
+#img2 img:hover{
+    cursor: pointer;
+}
+#image img:hover{
+    cursor: pointer;
+}
+footer{
+    color: white;
+    margin-top: 100px;
+    margin-left: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.rdd{
+    margin-top: 5px;
+    margin-left: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+#home img{
+    margin-top: 50px;
+    margin-left: 252px;
+}
+.rdd, #home img:hover{
+    cursor: pointer;
+}

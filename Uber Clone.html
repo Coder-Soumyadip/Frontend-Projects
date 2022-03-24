@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Clone</title>
+    <link rel="stylesheet" href="Uber Style.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 1170px)" href="Uber Phone.css"> -->
+    <style>
+        @media only screen and (max-width:1170px) and  (min-width:950px){
+            #navbar {
+                flex-direction: row;
+            }
+
+            .items {
+                display: none;
+            }
+
+            #logo {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-right: -65px;
+                margin-left: 100px;
+                cursor: pointer;
+            }
+
+            .rentals h2 {
+                margin-left: 120px;
+                margin-bottom: 70px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="https://www.webdesignerdepot.com/cdn-origin/uploads/2018/09/uber_logo.png" alt="Uber.com">
+        </div>
+        <ul>
+            <div class="items">
+                <li class="item"><a href="#Company">Company</a></li>
+                <li class="item"><a href="#Safety">Safety</a></li>
+                <li class="item"><a href="#Help">Help</a></li>
+                <li class="item"><a href="#COVID-19 Resources">COVID-19 Resources</a></li>
+            </div>
+            <div class="extra">
+                <ul>
+                    <li class="more"><a href="#EN">EN</a></li>
+                    <li class="more"><a href="#Products">&#8942&#8942&#8942 Products</a></li>
+                    <li class="more"><a href="#Login">Log in</a></li>
+                    <li class="more white"><a href="#SignUp">Sign up</a></li>
+                </ul>
+            </div>
+        </ul>
+    </nav>>
+    <section id="home">
+        <div class="box">
+            <img src="https://www.uber-assets.com/image/upload/v1542252540/assets/6d/87af17-3970-4d01-8936-1b0ba102ea6e/original/car-front-outlined.svg"
+                alt="">
+            <p class="rdd">Ride</p>
+            <h2>Request a ride now</h2>
+            <form action="">
+                <div class="formgroup">
+                    <input type="text" name="name" id="name" placeholder="Enter Pickup Location">
+                </div>
+                <div class="formgroup">
+                    <input type="text" name="name" id="name" placeholder="Enter Destination">
+                    <button class="btn">Request now</button>
+                    <button class="btm">Schedule for later</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="business">
+        <div class="business1">
+            <div class="seehow">
+                <h2>Uber for Business</h2>
+                <p>Transform the way your company moves and feeds its people.</p>
+                <button class="black">See how</button>
+            </div>
+        </div>
+    </section>
+    <section class="rentals">
+        <div class="rental1">
+            <div class="uberrentals">
+                <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1116,h_744/v1624484990/assets/fa/f20c42-425a-4243-866b-b480d3bd68b4/original/gettyimages-1139275491-2048x2048_With-Mask.png"
+                    alt="Uber Image">
+                <h2>Uber Rentals</h2>
+                <p>Book Rentals to save time with one car and driver for your multi-stop trips.</p>
+                <button class="Learn">Learn More</button>
+            </div>
+        </div>
+    </section>
+    <section class="intercity">
+        <div class="intercity1">
+            <div class="uberintercity">
+                <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1674,h_1116/v1623719981/assets/4d/b05e4c-7340-40c4-a3e9-da0de41f14fc/original/rentals-iindia.jpg"
+                    alt="Uber Image">
+                <h2>Uber Intercity</h2>
+                <p>Book Intercity to head outstation anytime in convenient and affordable cars.</p>
+                <button class="Lear">Learn More</button>
+            </div>
+        </div>
+    </section>
+    <section class="twodivs">
+        <div class="twodivs1">
+            <h1>Focused on safety, wherever you go</h1>
+            <div class="uberdiv1">
+                <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_698,h_465/v1613520218/assets/3e/e98625-31e6-4536-8646-976a1ee3f210/original/Safety_Home_Img2x.png"
+                    alt="Uber Image">
+                <h2>Our commitment to your safety</h2>
+                <p>With every safety feature and every standard in our Community Guidelines,</p>
+                <p> we're committed to helping to create a safe environment for our users.</p>
+                <button class="Read">Read about our Community Guidelines</button>
+                <button class="Safety">See all safety features</button>
+            </div>
+            <div class="uberdiv2">
+                <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_698,h_465/v1613520285/assets/c2/91ea9c-90d7-4c36-a740-d7844536694e/original/Cities_Home_Img2x.png"
+                    alt="Uber Image">
+                <h2>Setting 10,000+ cities in motion</h2>
+                <p>The app is available in thousands of cities worldwide, so you can request.</p>
+                <p> a ride even when you are far from home we're committed to helping to</p>
+                <p> create a safe environment for our users.</p>
+                <button class="City">View all cities</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="threedivs">
+            <div class="Aboutus">
+                <img src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_30,h_30/v1542256135/assets/dd/c53d7b-8921-4dc7-93f4-45fb59f4ffb9/original/person-multiple-outlined.svg"
+                    alt="Uber">
+                <h3>About us</h3>
+                <p>Find out how we started, what drives us, and how</p>
+                <p> we are reimagining how the world moves.</p>
+                <button class="about">Learn more about Uber</button>
+            </div>
+            <div class="Newsroom">
+                <img src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_30,h_30/v1542254244/assets/eb/68c631-5041-4eeb-9114-80048a326782/original/document-outlined.svg"
+                    alt="Uber">
+                <h3>Newsroom</h3>
+                <p>See announcements about our latest releases,</p>
+                <p> initiatives, and partnerships.</p>
+                <button class="News">Go to Newsroom</button>
+            </div>
+            <div class="Globalcitizenship">
+                <img src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_30,h_30/v1542255370/assets/64/58118a-0ece-4f80-93ee-8041b53593d5/original/home-outlined.svg"
+                    alt="Uber">
+                <h3>Global citizenship</h3>
+                <p>Read about our commitment to making a</p>
+                <p> positive impact in the cities we serve.</p>
+                <button class="Global">See our partnerships</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="love">
+            <h1>There is more to love in the apps</h1>
+            <div class="uberdriver">
+                <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_188,h_188/v1618459302/assets/8e/cbcd2e-e7f1-4bd1-ae4e-5343b99ff22f/original/Driver-App-logo.png"
+                    alt="">
+                <p>Download the Driver app &#8594</p>
+            </div>
+            <div class="uberapp">
+                <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_188,h_188/v1618459257/assets/13/6bfdbd-cdb6-4221-92c1-cab1feaa39f3/original/Rider-App-logo.png"
+                    alt="">
+                <p>Download the Uber app &#8594</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="sign">
+            <div class="drive">
+                <h1>Sign up to drive
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8594
+                </h1>
+
+            </div>
+            <div class="ride">
+                <h1>Sign up to ride
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8594
+                </h1>
+            </div>
+        </div>
+    </section>
+    <section id="final">
+        <div class="uber">
+            <h3>Uber</h3>
+            <h4>Visit Help Center</h4>
+            <div class="company">
+                <h2>Company</h2>
+                <p>About us</p>
+                <p>Our offerings</p>
+                <p>Newsroom</p>
+                <p>Investors</p>
+                <p>Blog</p>
+                <p>Careers</p>
+                <p>AI</p>
+                <p>Gift cards</p>
+            </div>
+            <div class="products">
+                <h2>Products</h2>
+                <p>Ride</p>
+                <p>Drive</p>
+                <p>Deliver</p>
+                <p>Eat</p>
+                <p>Uber for Business</p>
+            </div>
+            <div class="citizenship">
+                <h2>Global citizenship</h2>
+                <p>Safety</p>
+                <p>Diversity and Inclusion</p>
+            </div>
+            <div class="travel">
+                <h2>Travel</h2>
+                <p>Airports</p>
+                <p>Cities</p>
+            </div>
+        </div>
+    </section>
+    <section id="image">
+        <img src="https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.8/d1a3f4spazzrp4.cloudfront.net/illustrations/app-store-google-4d63c31a3e.svg"
+            alt="">
+    </section>
+    <section id="img2">
+        <img src="https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.8/d1a3f4spazzrp4.cloudfront.net/illustrations/app-store-apple-f1f919205b.svg"
+            alt="">" alt="">
+    </section>
+    <footer>
+        <p>&#169; Copyright Soumyadip Sengupta Uber Clone 2022</p>
+    </footer>
+</body>
+
+</html>
