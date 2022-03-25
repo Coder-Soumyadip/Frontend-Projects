@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4f5b649d5d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Log In</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: url(https://images.pexels.com/photos/372470/pexels-photo-372470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .container {
+            color: white;
+            position: absolute;
+            top: 25%;
+            left: 40%;
+        }
+
+        .container h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width: 50%;
+            display: inline-block;
+            font-size: 34px;
+            border-bottom: 5px solid brown;
+            margin-bottom: 15px;
+            padding: 13px 0;
+        }
+
+        .box {
+            background: none;
+            width: 75%;
+            padding: 5px 10px;
+            font-size: 20px;
+            border: none;
+            outline: none;
+            color: white;
+        }
+
+        .btn {
+            color: white;
+            cursor: pointer;
+            outline: none;
+            margin: 12px 0;
+            padding: 10px 21px;
+            border: 2px solid brown;
+            border-radius: 10px;
+            font-size: 18px;
+            background: none;
+            font-weight: bold;
+        }
+
+        .box i {
+            width: 25px;
+            text-align: center;
+        }
+
+        .btn:hover {
+            opacity: 0.5;
+            color: purple;
+            background: white;
+        }
+
+        .box input {
+            background: none;
+            width: 75%;
+            padding: 5px 10px;
+            font-size: 20px;
+            border: none;
+            outline: none;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Log In</h1>
+        <div class="box">
+            <i class="fa-regular fa-user"></i>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-key"></i>
+            <input type="password" name="password" placeholder="Enter Your Passoword">
+        </div>
+        <button class="btn">Sign In</button>
+    </div>
+</body>
+
+</html>
