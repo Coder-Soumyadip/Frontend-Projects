@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    color: red;
+}
+h2{
+    text-align: center;
+}
+.card{
+    /* border: 2px solid green; */
+    width: 20vw;
+    height: 10vw;
+    margin-top: 35px;
+    background-color: rgb(100, 100, 209);
+    display: inline-block;
+    margin-right: 30px;
+}
+.card__name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.card__total{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+}
+.recovered{
+    background-color: rgb(130, 255, 130);
+}
+.confirmed{
+    background-color: red;
+}
+.death{
+    background-color: grey;
+}
+.all{
+    background-color: cyan;
+}
+.vaccine{
+    background-color: yellow;
+}
